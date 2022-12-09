@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#introduction">Samaneh Mohammadi</a> |
+            <a href="#education">Education</a> |
+            <a href="#skills">Tech Skills</a> |
+            <a href="#contact">Ask Me</a>
+        </nav>
+        <h1 id="introduction">Samaneh Mohammadi</h1>
+        <div>
+            <i>Software Developer</i><br>
+            <a href="Samaneh.Mohammadi@integrify.io"><i>Samaneh.Mohammadi@integrify.io</i></a><br>
+            <i>tel:  +358 466448544</i><br>
+            <i>Helsinki, Finland</i><br />
+        </div>
+        <p>
+            I am studing as a student at Integrify and I plan to work as a full stack developer in Finland.
+            Beside studing and coding I have 2 children and I do enjoy spending time with them.
+        </p>
+    </header>
+    <hr>
+    <section>
+        <h2 id="skills">Technical Skills</h2>
+        <ol>
+            <li>Frontend
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS/SASS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </li>
+            <li>Backend
+                <ul>
+                    <li>C#.Net</li>
+                    <li>RestAPI</li>
+                    <li>Entity Framework</li>
+                </ul>
+            </li>
+            <li>Docker</li>
+            <li>Github Actions CI/CD</li>
+            <li>Cloud Computing: AWS</li>
+        </ol>
+    </section>
+    <hr>
+    <section>
+        <h2 id="hobbies">Hobbies</h2>
+        <ul>
+           <li>Swimming, Basketball,walking </li>
+           <Li>Watching Movie</Li>
+           <li>Travel</Li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h2 id="contact">Ask me a question</h2>
+        <form>
+            <div>
+                <label for="name">Your full name</label><br>
+                <input type="text" name="name" id="name" placeholder="John Smiths">
+            </div>
+            <div>
+                <label for="email">Your email</label><br>
+                <input type="email" name="email" id="email" placeholder="john@gmail.com">
+            </div>
+            <div>
+                <label for="topic">Choose a topic</label><br>
+                <select name="topic" id="topic">
+                    <option value="debug">Debugging</option>
+                    <option value="feature">Packages</option>
+                    <option value="syntax">Syntax</option>
+                    <option value="algorithm">Algorithm</option>
+                    <option value="workflow">Workflow</option>
+                </select>
+            </div>
+            <div>
+                <label for="filename">File name which contains the error</label>
+                <input type="text" name="filename" id="filename" placeholder="For example: calculation.js">
+            </div>
+            <div>
+                <label for="content">Explain your issue in detail</label><br>
+                <textarea name="content" id="content" cols="60" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="screenshot">Add the screenshot from your codes</label>
+                <input type="file" name="screenshot" id="screenshot" accept="image/png, image/gif, image/jpeg">
+            </div>
+            <button type="submit">Send request</button>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        &copy; Made by Samaneh 
+    </footer>
+</body>
+</html>
